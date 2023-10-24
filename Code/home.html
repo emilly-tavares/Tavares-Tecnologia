@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+    <div id="HeadContainer">
+
+        <div id="HeadContainer1">
+            <img id="HeadContainerImg" src="./Images/Tavares-Tecnologia-Logo.png" alt=""/>
+        </div>
+        <div id="HeadContainer2">
+           <a href="./home.html" id="link"><h5 id="HeadContainerText1">Home</h5></a> 
+           <a href="./home-1.html" id="link"><h5 id="HeadContainerText2">Nossos Serviços</h5></a> 
+           <a href="mailto:tavarestecnologia@hotmail.com" id="link"><h5 id="HeadContainerText3">Contate-nos</h5></a>
+        </div>
+        
+    </div>
+
+    <div id="slider-container">
+
+        <img src="./Images/purpleBall.png" alt="" id="purpleBall"/>
+        <img src="./Images/blueBall.png" alt="" id="blueBall"/>
+        
+
+        <ul id="slider">
+
+            <button  id="b1" onclick="prevSlide()" onmouseenter="animationFalse()" onmouseleave="animationTrue()"></button>
+            <button  id="b2" onclick="nextSlide()"></button>
+
+            <li>
+                <h3 id="slide1">Tecnologia, criatividade e inspiração</h3>
+            </li>
+            <li id="slide2">
+                <h3 >Saia do padrão de sites prontos na internet. Tenha seus sites produzidos por equipes especializadas que vão elevar o seu conceito de site.</h3>
+            </li>
+            <li>
+                <h3 id="slide3">Designs totalmente fora do habitual, trazendo inovação e identidade à sua empresa.</h3>
+            </li>
+        </ul>
+    </div>
+
+    <div id="About">
+        <div id="About1">
+            <div id="AboutText">
+                <h1 id="AboutText1">O que é a Tavares Tecnologia? </h1>
+                <h3 id="AboutText2">Nós somos uma empresa de tecnologia que busca fazer as empresas revelarem seu melhor lado em um dos lugares mais acessados do mundo: a internet. </h3>
+                <h3 id="AboutText3">Unindo tecnologia, criatividade e inspiração, criamos sites totalmente inovadores a fim de marcar positivamente a imagem da sua empresa nos seus clientes.</h3>
+            </div>
+    
+            <div id="AboutImg">
+                <img src="./Images/AboutImg.png" alt="" id="AboutImg"/>
+            </div>
+        </div>
+        
+        <a href="./home-1.html"><button id="AboutButton"><h4 id="AboutButtonText">Nossos serviços</h4></button></a>
+        
+    </div>
+
+    <div id="TalkWithUs-container">
+        <h1>
+            Fale Conosco
+        </h1>
+        <div id="TalkWithUs">
+            <div id="TalkWithUs_">
+                <div id="email">
+                    <img src="./Images/email_Img.png" alt="" width="15" height="15" id="email_Img" />
+                    <a href="mailto:tavarestecnologia@hotmail.com" id="link"><h4>tavarestecnologia@hotmail.com</h4></a>
+                </div>
+                <div id="phone"> 
+                    <img src="./Images/phone_Img.png" alt="" width="15" height="15" id="phone_Img" />
+                    <a href="https://wa.me/5581987272254" id="link"><h4>+55 (81) 98727-2254</h4></a>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div id="footer-container">
+        <div id="footer-container1">
+            <img id="footer-container-img" src="./Images/Tavares Tecnologia-logo-cinza_.png" alt=""/>
+        </div>
+        <div id="footer-container2">
+            <div id="footer-email">
+                
+                <h4 >tavarestecnologia@hotmail.com</h4>
+            </div>
+            <div id="footer-phone">
+                
+                <h4>+55 (81) 98727-2254</h4>
+            </div>
+        </div>
+    </div>
+
+    <script src="./code.js"></script>
+</body>
+</html>
+
