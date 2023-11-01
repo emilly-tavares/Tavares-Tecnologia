@@ -214,7 +214,7 @@
 
 #AboutButtonText{
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 13px;
 }
 
@@ -350,12 +350,44 @@
     width: 20px;
     height: 20px;
     margin-right: 30px;
+
+    animation-duration: 1s;
+    animation-name: purpleBall-1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes purpleBall-1{
+    from { 
+        width: 20px;
+        height: 20px;
+    }
+    to { 
+        width: 5px;
+        height: 5px;
+    }
 }
 
 #blueBall-1{
     width: 20px;
     height: 20px;
     margin-right: 30px;
+    animation-duration: 1s;
+    animation-name: blueBall-1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes blueBall-1{
+    from { 
+        width: 20px;
+        height: 20px;
+    }
+    to { 
+        width: 5px;
+        height: 5px;
+    }
 }
 
 #OurService-container{
@@ -408,7 +440,7 @@
 
 #ContactButtonText{
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 13px;
 }
 
@@ -1171,7 +1203,7 @@
     }
 
     #purpleBall-1{
-        margin-top: 7px;
+        margin-bottom: 7px;
         
     }
 
@@ -1191,6 +1223,10 @@
 
     #OurService-container-2{
         margin-left: 0px;
+    }
+
+    #OurService-container-3{
+        font-size: 14px;
     }
 
     
